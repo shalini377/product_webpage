@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1>Products</h1>
+            <div class="nav-icons" >
+                <a href="#search-bar"><i class="fas fa-home"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-bell"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+            </div>
+            <div class="nav-hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>    
+    </nav>
+    <div class="nav-search" id="search-bar">
+        <input type="text" id="search-bar" placeholder="Search products...">
+    </div>
+    <main>
+        <div id="product-grid" class="grid-container"></div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-icons">
+                <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:shalinijeyakanthan377@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+91 7550340377"><i class="fas fa-phone"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/shalini-jeyakanthan-1830b8215/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <hr>
+            <h3 class="text" style="color: #fff; font-weight: 200;">Product Store @ 2024 || All copyrights reserved</h3>
+        </div>
+    </footer>
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-image" src="" alt="Product Image">
+            <div class="modal-content-details" id="modal-content-details"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
